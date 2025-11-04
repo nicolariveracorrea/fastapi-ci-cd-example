@@ -1,0 +1,10 @@
+## 🌐 Endpoints Disponibles
+
+La API incluye los siguientes endpoints:
+
+| Método | Endpoint | Descripción | Respuesta |
+|--------|-----------|--------------|------------|
+| **GET** | `/` | Endpoint principal | `{"message": "Hello CI/CD"}` |
+| **GET** | `/hello` | Saludo simple | `{"message": "Hello world"}` |
+| **GET** | `/docs` | Documentación interactiva (Swagger) | Interfaz Swagger UI |
+| **GET** | `/redoc` | Documentación alternativa | Interfaz ReDoc |
